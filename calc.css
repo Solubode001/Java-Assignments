@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.container {
+    border: 1px solid #cdcccc;
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 72%;
+}
+
+.screen {
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid rgb(64, 64, 64);
+    justify-content: left;
+    color: rgb(29, 28, 28);
+    font-size: 1.5rem;
+    height: 4rem;
+    width: 85%;
+    margin: 20px;
+    margin-bottom: none;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    margin: auto;
+}
+
+.button {
+    height: 40px;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid gray;
+    background-color: transparent;
+    font-size: 2rem;
+    color: #444;
+    /* background-image: linear-gradient(to bottom, transparent, transparent 50%, rgba(0, 0, 0, .04)); */
+}
+
+.button:hover {
+    background-color: #eef4f4;
+}
+
+.operator {
+    color: #fff;
+    background-color: rgb(136, 212, 209);
+    height: 40px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    font-size: 2rem;
+}
+
+.operator:hover {
+    background-color: #4de1e1;
+}
+
+.ebutton {
+    height: 40px;
+    padding: 5px;
+    background-color: rgb(123, 158, 160);
+    border-radius: 3px;
+    border: 1px solid gray;
+    font-size: 2rem;
+    color: #444;
+}
+
+.e-button {
+    height: 40px;
+    padding: 5px;
+    background-color: rgb(174, 198, 200);
+    border-radius: 3px;
+    border: 1px solid gray;
+    /* background-color: transparent; */
+    font-size: 2rem;
+    color: #fff;
+    /* background-image: linear-gradient(to bottom, transparent, transparent 50%, rgba(0, 0, 0, .04)); */
+}
+
+.e-button:hover {
+    /* background-color: #eef4f4; */
+    background-color: #f17377;
+}
+
+.clear:hover {
+    background-color: #f17377;
+}
+
+.equal-sign {
+    background-color: rgb(136, 212, 209);
+    border-radius: 3px;
+    border: 1px solid gray;
+    color: #fff;
+}
+
+.equal-sign:hover {
+    background-color: #4de1e1;
+}
